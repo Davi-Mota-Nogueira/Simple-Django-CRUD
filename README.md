@@ -1,6 +1,7 @@
 # Simple-Django-CRUD
 Simple application using the basics functions of CRUD. Utilizing Python framework Django.
-Project based on tutorial from:<a href="https://www.thepythoncode.com/article/build-bookstore-app-with-django-backend-python">thepythoncode.com</a>
+Project based on tutorial from: <a href="https://www.thepythoncode.com/article/build-bookstore-app-with-django-backend-python">thepythoncode.com</a>
+
 The process of building a book store application using Django:
 - Started by creating a project (Creating a virtual enviorement, $pip install Django Pillow, $django-admin startproject bookstore)
 - Then an application ($cd bookstore, $python manage.py startapp books, Have to add 'books' into INSTALLED_APPS)
