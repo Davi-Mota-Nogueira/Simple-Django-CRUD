@@ -1,0 +1,20 @@
+{% extends 'dictionary/base.html' %}
+
+{% block content %}
+
+<a href="{% url 'home' %}" class="my-3 btn btn-outline-dark btn-sm">Go Back</a>
+<a href="{% url 'dictionary' %}" class="my-3 btn btn-dark btn-sm">Search Other Word</a>
+<div class="mt-4 p-5 bg-success text-white rounded mb-3">
+    <h1>Dictionary</h1>
+</div>
+
+<h4>{{ word }}</h4>
+<p>{{ meanings }}</p>
+
+<hr>
+<p><b>Antonyms</b>: {{ antonym }}</p>
+
+<hr>
+<p><b>Synonyms</b>: {{ synonym }}</p>
+
+{% endblock %}

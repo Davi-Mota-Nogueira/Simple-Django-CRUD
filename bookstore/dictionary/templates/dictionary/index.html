@@ -1,0 +1,26 @@
+{% extends 'dictionary/base.html' %}
+
+{% block content %}
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <a href="{% url 'home' %}" class="my-3 btn btn-dark btn-sm">Go Back</a>
+        <div class="mt-4 p-5 bg-success text-white rounded mb-3">
+            <h1>Dictionary</h1>
+        </div>
+        <div class="card shadow-lg">
+            <div class="card-body">
+                <form action="search">
+                    <div class="input-group">
+                        <input type="text" required class="form-control" name="search" placeholder="Search your favorite word">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-success btn-block">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

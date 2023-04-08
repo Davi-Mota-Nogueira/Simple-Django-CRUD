@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('bookstore/', include('books.urls')),
+    path('dictionary/', include('dictionary.urls'))
 ]
 
 # Appending the static urls with general urls
