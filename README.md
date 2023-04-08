@@ -23,7 +23,7 @@ $python manage.py startapp books
 - Created URLs for book app (On 'views.py' file and put the urls for each def function)
 - And tied every view to its respective URL (Create 'urls.py' and put the urlpatterns with django.urls path. Include in bookstore's url the books.urls)
 
-## Ideia
+## Idea
 The project of a bookstore with books for sale and a recently added dictionary.
 Site like a admin phase, you can add, edit, delete and see the detail books.
 Also search for words in dictionary.
